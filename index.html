@@ -54,14 +54,11 @@
   </p>
 </div>
 
+
 <!-- FIRST CONTAINER -->
-
-<div class="first">
+<div style="height: 100vh">
   <div class="container">
-
-
-    <div class="row">
-      <div class="col-md-6 offset-md-3" style="padding-top: 100px;">
+      <div class="col-md-6 offset-md-3 top">
               <div class="css-typing">
                 <p>
                   I'M
@@ -78,19 +75,7 @@
               <h4>JR. FULL STACK ENGINEER/<br/>
                   DEVELOPER</h4>
               </div>
-
-
       </div>
-    </div>
-    <div id="about" class="row align-items-end">
-      <div class="middle">
-<!-- <div class="col-md-6 offset-md-3 middle"> -->
-        <p><br/><br/>
-              <img src="images/aa.png" width="100" height="100">
-        <br><br><p>
-         <p class="text-justify intro" > JR. FULL STACK ENGINEER knowledgeable in software development lifecycle (SDLC), software development, leadership, and critical thinking. Meticulous and analytical, dedicated and team oriented, and works well in a project-based team environment.</p> 
-    </div>
-  </div>
   </div>
 </div>
 
@@ -99,7 +84,11 @@
 <div class="second">
   <div class="container">
     <div class="row align-items-start">
-      <div class="middle">
+      <div class="col middle">
+        <p><br/><br/>
+              <img src="images/aa.png" width="100" height="100">
+        <br><br><p>
+         <p class="text-justify intro" > JR. FULL STACK ENGINEER knowledgeable in software development lifecycle (SDLC), software development, leadership, and critical thinking. Meticulous and analytical, dedicated and team oriented, and works well in a project-based team environment.</p> 
         <p class="intro text-justify">Passionate about technology, can efficiently and consistently manage complex and mission critical tasks under strict time constraints, goes above and beyond to continuously improve programming and communication skill.<br><br><br></p>
             <p id="resume"><a href="resume/April Aquino_Resume.pdf"><button class="button">RESUME</button></a></p>
       </div>
@@ -130,7 +119,7 @@
                 </div>
               </div>
                <div class="col-md-4 order-2 order-md-2 cont" >
-                <img src="images/2.png" class="img-fluid"></a>
+                <img src="images/2.png" class="img-fluid">
                 <p class="port-title">Guessing Game</p>
                 <div class="overlay align-middle">
                   <a href="https://aprilaquino.github.io/colorgame/colorGame.html" style="color:#ffffff">
@@ -144,7 +133,7 @@
                 </div>
               </div>
                <div class="col-md-4 order-3 order-md-3 cont">
-                <img src="images/3.png" class="img-fluid"></a>
+                <img src="images/3.png" class="img-fluid">
                 <p class="port-title">Travel Photos</p>
                 <div class="overlay align-middle">
                   <a href="https://aprilaquino.github.io/photogallery/index.html" style="color:#ffffff">
@@ -157,7 +146,7 @@
               </div>
             </div>
         </div>
-</div>
+  </div>
 <!-- THIRD CONTAINER -->
 
 <div class="third">
@@ -247,7 +236,7 @@
 
         <div class="col-2">
           <div class="row">
-            <div class="col">
+            <div class="col-xs-6">
               <div class="wrapper">
                 <div class="circle">
                   <h5>1</h5>
@@ -337,6 +326,13 @@ $('.slider').slick({
     }, {
 
       breakpoint: 800,
+      settings: {
+        slidesToShow: 2
+      }
+
+    }, {
+
+      breakpoint: 400,
       settings: {
         slidesToShow: 2
       }
