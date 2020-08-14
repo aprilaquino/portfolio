@@ -10,6 +10,14 @@ body{
 font-family:  font-family: 'Raleway', sans-serif;
 }
 
+.top{
+  padding-top: 15%;
+}
+
+.fill{
+  height: 100% !important;
+}
+
 p{
 	margin-bottom: 0 !important;
 	text-align: center;
@@ -19,7 +27,7 @@ p{
 	background-color: #d7d7d7;
 }
 
-h1{
+/*h1{
 	padding-top: 200px;
 	font-size:7em !important;
 	padding-bottom: 30px;
@@ -29,7 +37,8 @@ h1{
 h4{
 	padding-bottom: 150px;
 	text-shadow: 2px 2px #ffffff;
-}
+}*/
+
 
 div.polaroid {
   width: fit-content;
@@ -141,13 +150,11 @@ hr {
 	margin-top: 50px;
 }
 
-.exp{
-	font-weight: bold;
-  font-family: 'Raleway', sans-serif;
-}
 
 .exp-des{
 	text-shadow: 1px 1px 0px #FFFFFF;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-link{
@@ -272,6 +279,8 @@ img.hoverImages:hover {
 .subtitle{
 	font-size:3em;
 }
+
+
 .css-typing p:nth-child(1) {
   width: 1.9em;
   -webkit-animation: type 1s steps(10, end);
@@ -410,6 +419,7 @@ img.hoverImages:hover {
 	}
 }
 
+
 form{
   display: inline-block;
 }
@@ -449,4 +459,66 @@ textarea{
     {
         background-color: #f0f0f0;
     }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-height: 823px){  
+
+  .css-typing p {
+      font-size:4.5em;
+    }
+
+  .subtitle {
+    font-size:1.5em;
+    margin-bottom: 40px;
+  }
+
+  .intro {
+  font-weight: 300;
+  font-size: 15px;
+  text-indent: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+  input {
+    width: 250px;
+    padding: 5px;
+    margin:5px;
+    border:0;
+  }
+
+  textarea{
+  width:250px;
+  border:0;
+  }
+
+  .subhead{
+  padding:60px;
+  font-size: 2em;
+  }
+
+  div.polaroid {
+  width: fit-content;
+  margin: 15px;
+  }
+
+  .third img{
+    width:96px;
+    height: 96px;
+  }
+
+  .exp-des{
+  font-size:12px;
+  font-weight: 500;
+ }
+
+ .port-title{
+  font-size:20px;
+  font-weight: 600;
+}
+
+.top{
+  padding-top: 45%;
+}
+
 }
