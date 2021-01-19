@@ -5,7 +5,9 @@ body{
 	background:url(second.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
+  background-position: center center;
+  background-size: cover;
 
 font-family:  font-family: 'Raleway', sans-serif;
 }
@@ -41,16 +43,20 @@ h4{
 
 
 div.polaroid {
-  width: fit-content;
-  margin: 25px;
+  /*width: fit-content;*/
+  margin: 15px;
   border-style: outset;
   border-radius: 5px;
 }
 
 .column {
-  float: left;
-  width: 25%;
+  /*float: right;*/
+  /*width: 25%;*/
   padding: 5px;
+}
+
+.column img{
+  padding-left: 15px;
 }
 
 .subhead{
@@ -85,10 +91,10 @@ svg{
 	margin:5px;
 }
 
-.contact{
+/*.contact{
 	margin:20px;
 }
-
+*/
 .wrapper {
   width: auto;
   height: auto;
@@ -426,6 +432,7 @@ form{
 
 .contact{
   text-align: center;
+  margin: 20px;
 }
 
 input {
@@ -454,14 +461,25 @@ textarea{
   background:   #f0f0f0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 926px) {
   .navbar-collapse
     {
         background-color: #f0f0f0;
-    }
+    } 
+
+  .polaroid img{
+    width: 108px !important;
+  }
+
+
+
 }
 
-@media screen and (min-device-width: 320px) and (max-device-height: 823px){  
+@media screen and (min-device-width: 390px) and (max-device-height: 844px){  
+   
+  .contact{
+    width: max-content;
+  }
 
   .css-typing p {
       font-size:4.5em;
