@@ -475,7 +475,7 @@ textarea{
 
 }
 
-@media screen and (min-device-width: 390px) and (max-device-height: 844px){  
+@media screen and (min-device-width: 320px) and (max-device-height: 844px){  
    
   .contact{
     width: max-content;
